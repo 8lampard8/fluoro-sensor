@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="荧光传感器图像极速分析平台 - 专注荧光图像的高效处理与量化分析">
+    <title>荧光传感器图片快速处理平台</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo-icon">🔬</span>
+                <span class="logo-text">Fluoro-Sensor</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">核心优势</a></li>
+                <li><a href="#applications">应用场景</a></li>
+                <li><a href="#demo">演示</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+            <button class="nav-cta">立即体验</button>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">瞬息洞察，精准显影 —— 荧光传感器图像极速分析平台</h1>
+                <h2 class="hero-subtitle">专注荧光图像的高效处理与量化分析。从机场防爆筛查到餐桌农残检测，让微弱的荧光信号转化为守护公共安全的强大力量。</h2>
+                <div class="hero-cta-group">
+                    <button class="btn btn-primary">立即上传图像开始分析</button>
+                    <button class="btn btn-secondary">查看应用案例</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-value">300%</div>
+                        <div class="stat-label">处理速度提升</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">99.8%</div>
+                        <div class="stat-label">微弱信号识别率</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">&lt;2s</div>
+                        <div class="stat-label">单图处理时间</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="image-comparison">
+                    <div class="image-side before">
+                        <div class="image-label">原始图像</div>
+                        <div class="scan-line"></div>
+                    </div>
+                    <div class="image-side after">
+                        <div class="image-label">处理后</div>
+                        <div class="data-overlay">
+                            <div class="data-point" style="top: 30%; left: 40%;">RFI: 85.3</div>
+                            <div class="data-point" style="top: 60%; left: 70%;">RFI: 92.1</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">核心优势</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">极速响应，秒级出图</h3>
+                    <p class="feature-description">告别繁琐的手动调节。依托强大的云端算法，批量上传荧光图像，数秒内即可自动完成背景去噪、对比度增强与荧光强度的精准提取。</p>
+                    <div class="feature-visual">
+                        <div class="progress-indicator">
+                            <div class="progress-bar"></div>
+                            <span class="progress-text">处理中...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title">智能量化，数据可视化</h3>
+                    <p class="feature-description">自动识别荧光区域并计算相对荧光强度（RFI）。一键生成柱状图、热力图及标准曲线，让肉眼难以分辨的差异变得一目了然。</p>
+                    <div class="feature-visual">
+                        <div class="chart-preview">
+                            <div class="bar" style="height: 60%;"></div>
+                            <div class="bar" style="height: 80%;"></div>
+                            <div class="bar" style="height: 45%;"></div>
+                            <div class="bar" style="height: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">格式兼容，安全合规</h3>
+                    <p class="feature-description">支持 TIF, JPG, PNG 及各类专业显微镜导出格式。所有数据加密处理，保障敏感检测信息的绝对安全。</p>
+                    <div class="feature-visual">
+                        <div class="format-icons">
+                            <span class="format-badge">TIF</span>
+                            <span class="format-badge">JPG</span>
+                            <span class="format-badge">PNG</span>
+                            <span class="format-badge">RAW</span>
+                        </div>
+                        <div class="security-badge">
+                            <span>🔒 加密传输</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="applications" id="applications">
+        <div class="container">
+            <h2 class="section-title">核心应用场景</h2>
+            <div class="applications-grid">
+                <div class="application-card security">
+                    <div class="app-tag">反恐防爆 / 毒品筛查</div>
+                    <div class="app-icon">🛡️</div>
+                    <h3 class="app-title">机场与海关安全检测</h3>
+                    <p class="app-description">在高吞吐量的机场、高铁站及海关边境，时间就是生命。我们的平台配合前沿的荧光传感阵列，能够实现对TNT、苦味酸等爆炸物及危险化学品痕量的可视化极速判读。极大地提高了安检现场的吞吐效率，让隐蔽危险无处遁形。</p>
+                    <div class="app-visual">
+                        <div class="detection-zone">
+                            <div class="scan-effect"></div>
+                            <div class="alert-marker"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="application-card food">
+                    <div class="app-tag">守护餐桌 / 绿色农业</div>
+                    <div class="app-icon">🥬</div>
+                    <h3 class="app-title">农产品安全快速检测</h3>
+                    <p class="app-description">传统的农残检测耗时且成本高昂。通过处理基于有机荧光探针或量子点的检测图像，本平台能快速分析果蔬表面或提取液中的有机磷等农药残留。为农贸市场、食品加工厂提供现场、实时、高通量的初筛技术支持。</p>
+                    <div class="app-visual">
+                        <div class="safety-indicator">
+                            <div class="safety-status">✓ 安全合格</div>
+                            <div class="safety-bar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="application-card medical">
+                    <div class="app-tag">水质预警 / 生物传感</div>
+                    <div class="app-icon">💧</div>
+                    <h3 class="app-title">环境与医疗检测拓展应用</h3>
+                    <p class="app-description">无论是检测工业废水中的重金属离子（如铅、汞），还是分析生物芯片上的肿瘤标志物荧光信号，高质量的图像处理都是得出科学结论的基石。</p>
+                    <div class="app-visual">
+                        <div class="microchip-view">
+                            <div class="chip-grid"></div>
+                            <div class="data-points"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="demo" id="demo">
+        <div class="container">
+            <h2 class="section-title">见证图像处理的力量</h2>
+            <p class="demo-intro">拖动滑块查看处理前后的对比效果</p>
+            
+            <div class="demo-selector">
+                <button class="demo-tab active" data-demo="security">爆炸物检测</button>
+                <button class="demo-tab" data-demo="food">农残检测</button>
+                <button class="demo-tab" data-demo="medical">生物芯片</button>
+            </div>
+
+            <div class="comparison-container">
+                <div class="comparison-wrapper" id="comparison-wrapper">
+                    <div class="comparison-image before-image">
+                        <div class="image-label">处理前</div>
+                        <div class="noise-overlay"></div>
+                    </div>
+                    <div class="comparison-image after-image" id="after-image">
+                        <div class="image-label">处理后</div>
+                        <div class="heatmap-overlay"></div>
+                    </div>
+                    <div class="comparison-slider" id="comparison-slider">
+                        <div class="slider-handle">
+                            <div class="slider-line"></div>
+                            <div class="slider-button">◄ ►</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="demo-info">
+                <div class="info-item">
+                    <span class="info-label">原始信噪比:</span>
+                    <span class="info-value">3.2 dB</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">处理后信噪比:</span>
+                    <span class="info-value">28.7 dB</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">信号增强:</span>
+                    <span class="info-value">896%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-cta" id="contact">
+        <div class="container">
+            <h2 class="cta-title">无论您是科研人员、现场安检员还是食品质检员，Fluoro-Sensor 都能为您提供最可靠的图像分析支持。</h2>
+            <div class="cta-buttons">
+                <button class="btn btn-primary btn-large">免费注册体验</button>
+                <button class="btn btn-secondary btn-large">下载API文档</button>
+                <button class="btn btn-outline btn-large">联系技术支持</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="analysis-modal" id="analysis-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>荧光图像分析</h2>
+                <button class="close-btn" id="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="analysis-workspace">
+                    <div class="workspace-sidebar">
+                        <div class="upload-section">
+                            <h3>上传图像</h3>
+                            <div class="upload-area" id="upload-area">
+                                <input type="file" id="image-upload" accept="image/*" multiple>
+                                <p>拖放文件到此处或点击上传</p>
+                                <div class="supported-formats">支持：TIF, JPG, PNG</div>
+                            </div>
+                        </div>
+                        
+                        <div class="analysis-tools">
+                            <h3>分析工具</h3>
+                            <button class="tool-btn active" data-tool="intensity">
+                                <span class="tool-icon">📊</span>
+                                <span>荧光强度分析</span>
+                            </button>
+                            <button class="tool-btn" data-tool="color-picker">
+                                <span class="tool-icon">🎨</span>
+                                <span>RGB取色识别</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="workspace-main">
+                        <div class="image-container" id="image-container">
+                            <div class="placeholder-image">
+                                <div class="placeholder-icon">🖼️</div>
+                                <p>上传图像开始分析</p>
+                            </div>
+                        </div>
+                        
+                        <div class="analysis-results" id="analysis-results">
+                            <div class="results-section intensity-analysis">
+                                <h3>荧光强度分析</h3>
+                                <div class="intensity-chart" id="intensity-chart">
+                                    <canvas id="intensity-canvas"></canvas>
+                                </div>
+                                <div class="intensity-controls">
+                                    <div class="control-group">
+                                        <label>对比度</label>
+                                        <input type="range" id="contrast-slider" min="0" max="200" value="100">
+                                        <span id="contrast-value">100%</span>
+                                    </div>
+                                    <div class="control-group">
+                                        <label>亮度</label>
+                                        <input type="range" id="brightness-slider" min="0" max="200" value="100">
+                                        <span id="brightness-value">100%</span>
+                                    </div>
+                                </div>
+                                <div class="intensity-data">
+                                    <div class="data-item">
+                                        <span class="data-label">平均强度:</span>
+                                        <span class="data-value" id="avg-intensity">0</span>
+                                    </div>
+                                    <div class="data-item">
+                                        <span class="data-label">最大强度:</span>
+                                        <span class="data-value" id="max-intensity">0</span>
+                                    </div>
+                                    <div class="data-item">
+                                        <span class="data-label">最小强度:</span>
+                                        <span class="data-value" id="min-intensity">0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="results-section color-picker-analysis" style="display: none;">
+                                <h3>RGB取色分析</h3>
+                                <div class="color-info" id="color-info">
+                                    <div class="color-preview" id="color-preview"></div>
+                                    <div class="color-values">
+                                        <div class="value-group">
+                                            <span class="value-label">R:</span>
+                                            <span class="value-value" id="r-value">0</span>
+                                        </div>
+                                        <div class="value-group">
+                                            <span class="value-label">G:</span>
+                                            <span class="value-value" id="g-value">0</span>
+                                        </div>
+                                        <div class="value-group">
+                                            <span class="value-label">B:</span>
+                                            <span class="value-value" id="b-value">0</span>
+                                        </div>
+                                        <div class="value-group">
+                                            <span class="value-label">HEX:</span>
+                                            <span class="value-value" id="hex-value">#000000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="color-instruction">点击图像任意位置获取RGB颜色值</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="cancel-analysis">取消</button>
+                <button class="btn btn-primary" id="export-results">导出结果</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>关于我们</h4>
+                    <p>FluoroSense 致力于通过先进的图像处理技术，为公共安全、食品安全和科学研究提供专业、高效的荧光图像分析解决方案。</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#features">核心优势</a></li>
+                        <li><a href="#applications">应用场景</a></li>
+                        <li><a href="#demo">在线演示</a></li>
+                        <li><a href="#">API文档</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>法律信息</h4>
+                    <ul>
+                        <li><a href="#">隐私政策</a></li>
+                        <li><a href="#">服务条款</a></li>
+                        <li><a href="#">数据安全</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li>📧 support@fluorosense.com</li>
+                        <li>📞 400-888-8888</li>
+                        <li>📍 北京市海淀区科技园</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FluoroSense. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

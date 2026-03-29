@@ -1,0 +1,16 @@
+{
+  "name": "fluoro-sensor",
+  "version": "1.0.0",
+  "description": "荧光传感器图片快速处理平台",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "build": "echo 'Build complete'"
+  },
+  "keywords": ["fluorescence", "sensor", "image-processing", "security", "food-safety"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

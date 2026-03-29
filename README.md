@@ -170,9 +170,9 @@ npm run build
 
 ## 联系方式
 
-- 邮箱：support@fluoro-sensor.com
-- 电话：400-888-8888
-- 地址：北京市海淀区科技园
+- 邮箱：heyihao2021@gmail.com
+- 电话：18086169778
+- 地址：西北师范大学
 
 ## 许可证
 
